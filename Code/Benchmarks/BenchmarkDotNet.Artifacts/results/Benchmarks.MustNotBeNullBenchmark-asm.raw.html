@@ -1,0 +1,1196 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8' />
+<title>Output of DisassemblyDiagnoser for Benchmarks.MustNotBeNullBenchmark-20191211-094150</title>
+
+<style type="text/css">
+    pre { margin: 0px; }
+    table { border-collapse:collapse; }
+    td.perMethod { border-top: 1px black solid; }
+    tr.evenMap td { background-color: #F5F5F5; }  
+</style>
+</head>
+<body>
+<h2>.NET Framework 4.8 (4.8.4042.0), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140709509242784" style="text-align: left;">00007ff9`7c509fa0 Benchmarks.MustNotBeNullBenchmark.Imperative()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fa5 488b4108        mov     rax,qword ptr [rcx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fa9 4885c0          test    rax,rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fac 7406            je      00007ff9`7c509fb4</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fae 4883c420        add     rsp,20h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fb2 5e              pop     rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fb3 c3              ret</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fb4 48b9b04b4edaf97f0000 mov rcx,offset mscorlib_ni+0xa4bb0 (00007ff9`da4e4bb0)</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fbe e84d85535f      call    clr+0x2510 (00007ff9`dba42510)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fc3 488bf0          mov     rsi,rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fc6 b9bf000000      mov     ecx,0BFh</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fcb 48ba80825b7cf97f0000 mov rdx,7FF97C5B8280h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fd5 e8d6585a5f      call    clr!StrongNameTokenFromPublicKey+0x1ff70 (00007ff9`dbaaf8b0)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fda 488bd0          mov     rdx,rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fdd 488bce          mov     rcx,rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fe0 ff15322c125e    call    qword ptr [mscorlib_ni+0x1ecc18 (00007ff9`da62cc18)]</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fe6 488bce          mov     rcx,rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fe9 e86217555f      call    clr!LogHelp_LogAssert+0x169e0 (00007ff9`dba5b750)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fee cc              int     3</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fef 0019            add     byte ptr [rcx],bl</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509ff1 0502000532      add     eax,32050002h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509ff6 016040          add     dword ptr [rax+40h],esp</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509ff9 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509ffb 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509ffd 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fff 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c50a001 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c50a003 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c50a005 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+</tbody></table>
+<h2>.NET Framework 4.8 (4.8.4042.0), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140709509373856" style="text-align: left;">00007ff9`7c529fa0 Benchmarks.MustNotBeNullBenchmark.LightGuardClauses()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fa0 4883ec28        sub     rsp,28h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fa4 33d2            xor     edx,edx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fa6 4889542420      mov     qword ptr [rsp+20h],rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fab 488b5108        mov     rdx,qword ptr [rcx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529faf 49b8b81b454257020000 mov r8,25742451BB8h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fb9 4d8b00          mov     r8,qword ptr [r8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fbc 48b918e4607cf97f0000 mov rcx,7FF97C60E418h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fc6 4533c9          xor     r9d,r9d</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fc9 e89aecffff      call    00007ff9`7c528c68</pre></code></td>
+<td><a href="#140709509373936">__Canon, mscorlib]]</a></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fce 90              nop</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fcf 4883c428        add     rsp,28h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fd3 c3              ret</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fd4 190401          sbb     dword ptr [rcx+rax],eax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fd7 000442          add     byte ptr [rdx+rax*2],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fda 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fdc 400000          add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fdf 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fe1 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fe3 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fe5 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fe7 00c8            add     al,cl</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fe9 ff617c          jmp     qword ptr [rcx+7Ch]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fec f9              stc</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529fed 7f00            jg      00007ff9`7c529fef</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+<tr><th colspan="2" id="140709509373936" style="text-align: left;">00007ff9`7c529ff0 Benchmarks.MustNotBeNullAssertions.MustNotBeNullOld[[System.__Canon, mscorlib]](System.__Canon, System.String, System.String, System.Func`1<System.Exception>)</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`7c529ffd 4885d2          test    rdx,rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a000 740b            je      00007ff9`7c52a00d</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a002 488bc2          mov     rax,rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a005 4883c420        add     rsp,20h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a009 5b              pop     rbx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a00a 5e              pop     rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a00b 5f              pop     rdi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a00c c3              ret</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a00d 488b442460      mov     rax,qword ptr [rsp+60h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a012 4885c0          test    rax,rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a015 7504            jne     00007ff9`7c52a01b</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a017 33db            xor     ebx,ebx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a019 eb0d            jmp     00007ff9`7c52a028</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a01b 488d4808        lea     rcx,[rax+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a01f 488b09          mov     rcx,qword ptr [rcx]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a022 ff5018          call    qword ptr [rax+18h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a025 488bd8          mov     rbx,rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a028 4885db          test    rbx,rbx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a02b 0f858b000000    jne     00007ff9`7c52a0bc</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a031 488bde          mov     rbx,rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a034 4885ff          test    rdi,rdi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a037 752d            jne     00007ff9`7c52a066</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a039 488bce          mov     rcx,rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a03c 4885f6          test    rsi,rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a03f 750d            jne     00007ff9`7c52a04e</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a041 48b9c01b454257020000 mov rcx,25742451BC0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a04b 488b09          mov     rcx,qword ptr [rcx]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a04e 488bde          mov     rbx,rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c52a051 48bac81b454257020000 mov rdx,25742451BC8h</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+</tbody></table>
+<h2>.NET Framework 4.8 (4.8.4042.0), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140709509242784" style="text-align: left;">00007ff9`7c509fa0 Benchmarks.MustNotBeNullBenchmark.Simple()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fa0 488b5108        mov     rdx,qword ptr [rcx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fa4 49b8b81b7154d1010000 mov r8,1D154711BB8h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fae 4d8b00          mov     r8,qword ptr [r8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fb1 48b918e45e7cf97f0000 mov rcx,7FF97C5EE418h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fbb 4533c9          xor     r9d,r9d</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fbe 48b8688c507cf97f0000 mov rax,7FF97C508C68h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fc8 48ffe0          jmp     rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fcb 0019            add     byte ptr [rcx],bl</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fcd 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fcf 004000          add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fd2 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fd4 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fd6 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fd8 c8ff5f7c        enter   5FFFh,7Ch</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fdc f9              stc</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fdd 7f00            jg      00007ff9`7c509fdf</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fdf 005756          add     byte ptr [rdi+56h],dl</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fe2 53              push    rbx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fe3 4883ec20        sub     rsp,20h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c509fe7 4885d2          test    rdx,rdx</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+</tbody></table>
+<h2>.NET Framework 4.8 (4.8.4042.0), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140709509177248" style="text-align: left;">00007ff9`7c4f9fa0 Benchmarks.MustNotBeNullBenchmark.AggressiveInlining()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fa7 488b4108        mov     rax,qword ptr [rcx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fab 4885c0          test    rax,rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fae 7408            je      00007ff9`7c4f9fb8</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fb0 4883c420        add     rsp,20h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fb4 5b              pop     rbx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fb5 5e              pop     rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fb6 5f              pop     rdi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fb7 c3              ret</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fb8 48b9b81b945b48010000 mov rcx,1485B941BB8h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fc2 488b31          mov     rsi,qword ptr [rcx]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fc5 48b9c01b945b48010000 mov rcx,1485B941BC0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fcf 488b39          mov     rdi,qword ptr [rcx]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fd2 48b9b04b4edaf97f0000 mov rcx,offset mscorlib_ni+0xa4bb0 (00007ff9`da4e4bb0)</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+</tbody></table>
+<h2>.NET Framework 4.8 (4.8.4042.0), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140709509177248" style="text-align: left;">00007ff9`7c4f9fa0 Benchmarks.MustNotBeNullBenchmark.ExternalThrowCall()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fa4 488b4108        mov     rax,qword ptr [rcx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fa8 4885c0          test    rax,rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fab 7405            je      00007ff9`7c4f9fb2</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fad 4883c428        add     rsp,28h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fb1 c3              ret</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fb2 48b9b81bca47b5020000 mov rcx,2B547CA1BB8h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fbc 488b09          mov     rcx,qword ptr [rcx]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fbf 33d2            xor     edx,edx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fc1 e8d2ecffff      call    00007ff9`7c4f8c98</pre></code></td>
+<td>Benchmarks.Throw.ArgumentNull(System.String, System.String)</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fc6 cc              int     3</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fc7 0019            add     byte ptr [rcx],bl</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fc9 0401            add     al,1</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fcb 000442          add     byte ptr [rdx+rax*2],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fce 0000            add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`7c4f9fd0 400000          add     byte ptr [rax],al</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+<tr><td colspan="2"><b>Method got most probably inlined</b></td></tr>
+<tr><td colspan="2">Benchmarks.Throw.ArgumentNull(System.String, System.String)</td></tr>
+<tr><td colspan="{2}"></td></tr>
+</tbody></table>
+<h2>.NET Core 3.1.0 (CoreCLR 4.700.19.56402, CoreFX 4.700.19.56404), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140708970017440" style="text-align: left;">00007ff9`5c2cb2a0 Benchmarks.MustNotBeNullBenchmark.Imperative()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c9678 488b4510        mov     rax,qword ptr [rbp+10h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c967c 4883780800      cmp     qword ptr [rax+8],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c9681 7541            jne     00007ff9`5c2c96c4</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c9683 48b980c90f5cf97f0000 mov rcx,7FF95C0FC980h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c968d e81ed68c5f      call    coreclr!coreclr_shutdown_2+0xcb80 (00007ff9`bbb96cb0)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c9692 488945f8        mov     qword ptr [rbp-8],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c9696 b9bf000000      mov     ecx,0BFh</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c969b 48bab0c51f5cf97f0000 mov rdx,7FF95C1FC5B0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96a5 e8066f9f5f      call    coreclr!GetCLRRuntimeHost+0x740d0 (00007ff9`bbcc05b0)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96aa 488945f0        mov     qword ptr [rbp-10h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96ae 488b55f0        mov     rdx,qword ptr [rbp-10h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96b2 488b4df8        mov     rcx,qword ptr [rbp-8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96b6 e865d6d9ff      call    00007ff9`5c066d20</pre></code></td>
+<td>System.ArgumentNullException..ctor(System.String)</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96bb 488b4df8        mov     rcx,qword ptr [rbp-8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96bf e83c22845f      call    coreclr!coreclr_initialize+0xb9420 (00007ff9`bbb0b900)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96c4 488b4510        mov     rax,qword ptr [rbp+10h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2c96c8 488b4008        mov     rax,qword ptr [rax+8]</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+<tr><td colspan="2"><b>Method got most probably inlined</b></td></tr>
+<tr><td colspan="2">System.ArgumentNullException..ctor(System.String)</td></tr>
+<tr><td colspan="{2}"></td></tr>
+</tbody></table>
+<h2>.NET Core 3.1.0 (CoreCLR 4.700.19.56402, CoreFX 4.700.19.56404), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140708970214304" style="text-align: left;">00007ff9`5c2fb3a0 Benchmarks.MustNotBeNullBenchmark.LightGuardClauses()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f966e 33d2            xor     edx,edx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9670 4889542420      mov     qword ptr [rsp+20h],rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9675 488b5510        mov     rdx,qword ptr [rbp+10h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9679 488b5208        mov     rdx,qword ptr [rdx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f967d 49b8b09b1269c3010000 mov r8,1C369129BB0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9687 4d8b00          mov     r8,qword ptr [r8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f968a 48b9984d395cf97f0000 mov rcx,7FF95C394D98h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9694 4533c9          xor     r9d,r9d</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9697 e844f4ffff      call    00007ff9`5c2f8ae0</pre></code></td>
+<td><a href="#140708970214384">CoreLib]]</a></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+<tr><th colspan="2" id="140708970214384" style="text-align: left;">00007ff9`5c2fb3f0 Benchmarks.MustNotBeNullAssertions.MustNotBeNullOld[[System.__Canon, System.Private.CoreLib]](System.__Canon, System.String, System.String, System.Func`1<System.Exception>)</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f96ef 48837d1800      cmp     qword ptr [rbp+18h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f96f4 740c            je      00007ff9`5c2f9702</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f96f6 488b4518        mov     rax,qword ptr [rbp+18h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f96fa 488d65f0        lea     rsp,[rbp-10h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f96fe 5e              pop     rsi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f96ff 5f              pop     rdi</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9700 5d              pop     rbp</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9701 c3              ret</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9702 48837d3000      cmp     qword ptr [rbp+30h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9707 7508            jne     00007ff9`5c2f9711</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9709 33c9            xor     ecx,ecx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f970b 48894de8        mov     qword ptr [rbp-18h],rcx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f970f eb1b            jmp     00007ff9`5c2f972c</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9711 488b4d30        mov     rcx,qword ptr [rbp+30h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9715 48894db0        mov     qword ptr [rbp-50h],rcx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9719 488b4db0        mov     rcx,qword ptr [rbp-50h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f971d 488b4908        mov     rcx,qword ptr [rcx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9721 488b45b0        mov     rax,qword ptr [rbp-50h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9725 ff5018          call    qword ptr [rax+18h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9728 488945e8        mov     qword ptr [rbp-18h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f972c 488b55e8        mov     rdx,qword ptr [rbp-18h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9730 488955e0        mov     qword ptr [rbp-20h],rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9734 48837de800      cmp     qword ptr [rbp-18h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9739 0f858d000000    jne     00007ff9`5c2f97cc</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f973f 488b5520        mov     rdx,qword ptr [rbp+20h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9743 488955d8        mov     qword ptr [rbp-28h],rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9747 488b5528        mov     rdx,qword ptr [rbp+28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f974b 488955d0        mov     qword ptr [rbp-30h],rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f974f 48837d2800      cmp     qword ptr [rbp+28h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9754 754a            jne     00007ff9`5c2f97a0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9756 488b55d8        mov     rdx,qword ptr [rbp-28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f975a 488955c0        mov     qword ptr [rbp-40h],rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f975e 488b5520        mov     rdx,qword ptr [rbp+20h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9762 488955b8        mov     qword ptr [rbp-48h],rdx</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f9766 48837d2000      cmp     qword ptr [rbp+20h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f976b 7511            jne     00007ff9`5c2f977e</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2f976d 48bab89b1269c3010000 mov rdx,1C369129BB8h</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+</tbody></table>
+<h2>.NET Core 3.1.0 (CoreCLR 4.700.19.56402, CoreFX 4.700.19.56404), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140708970082832" style="text-align: left;">00007ff9`5c2db210 Benchmarks.MustNotBeNullBenchmark.Simple()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d953e 488b5510        mov     rdx,qword ptr [rbp+10h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9542 488b5208        mov     rdx,qword ptr [rdx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9546 49b8b09b25c97c010000 mov r8,17CC9259BB0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9550 4d8b00          mov     r8,qword ptr [r8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9553 48b9984d375cf97f0000 mov rcx,7FF95C374D98h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d955d 4533c9          xor     r9d,r9d</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9560 e873f5ffff      call    00007ff9`5c2d8ad8</pre></code></td>
+<td><a href="#140708970082896">CoreLib]]</a></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+<tr><th colspan="2" id="140708970082896" style="text-align: left;">00007ff9`5c2db250 Benchmarks.MustNotBeNullAssertions.MustNotBeNullV1[[System.__Canon, System.Private.CoreLib]](System.__Canon, System.String, System.String)</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95af 48837d1800      cmp     qword ptr [rbp+18h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95b4 0f857e000000    jne     00007ff9`5c2d9638</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95ba 488b4520        mov     rax,qword ptr [rbp+20h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95be 488945e8        mov     qword ptr [rbp-18h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95c2 488b4528        mov     rax,qword ptr [rbp+28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95c6 488945e0        mov     qword ptr [rbp-20h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95ca 48837d2800      cmp     qword ptr [rbp+28h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95cf 7511            jne     00007ff9`5c2d95e2</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95d1 48b8b89b25c97c010000 mov rax,17CC9259BB8h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95db 488b00          mov     rax,qword ptr [rax]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95de 488945e0        mov     qword ptr [rbp-20h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95e2 48b980c9105cf97f0000 mov rcx,7FF95C10C980h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95ec e8bfd68b5f      call    coreclr!coreclr_shutdown_2+0xcb80 (00007ff9`bbb96cb0)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95f1 488945d8        mov     qword ptr [rbp-28h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95f5 b999000000      mov     ecx,99h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d95fa 48bab0c5205cf97f0000 mov rdx,7FF95C20C5B0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9604 e8a76f9e5f      call    coreclr!GetCLRRuntimeHost+0x740d0 (00007ff9`bbcc05b0)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9609 488945d0        mov     qword ptr [rbp-30h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d960d 488b55d0        mov     rdx,qword ptr [rbp-30h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9611 488b4de0        mov     rcx,qword ptr [rbp-20h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9615 e886afd9ff      call    00007ff9`5c0745a0</pre></code></td>
+<td>System.String.Concat(System.String, System.String)</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d961a 488945c8        mov     qword ptr [rbp-38h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d961e 4c8b45c8        mov     r8,qword ptr [rbp-38h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9622 488b55e8        mov     rdx,qword ptr [rbp-18h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9626 488b4dd8        mov     rcx,qword ptr [rbp-28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d962a e801d7d9ff      call    00007ff9`5c076d30</pre></code></td>
+<td>System.ArgumentNullException..ctor(System.String, System.String)</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d962f 488b4dd8        mov     rcx,qword ptr [rbp-28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9633 e8c822835f      call    coreclr!coreclr_initialize+0xb9420 (00007ff9`bbb0b900)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9638 488b4518        mov     rax,qword ptr [rbp+18h]</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+</tbody></table>
+<h2>.NET Core 3.1.0 (CoreCLR 4.700.19.56402, CoreFX 4.700.19.56404), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140708969952064" style="text-align: left;">00007ff9`5c2bb340 Benchmarks.MustNotBeNullBenchmark.AggressiveInlining()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b966e 488b5510        mov     rdx,qword ptr [rbp+10h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9672 488b5208        mov     rdx,qword ptr [rdx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9676 49b8b09ba6b67a020000 mov r8,27AB6A69BB0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9680 4d8b00          mov     r8,qword ptr [r8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9683 48b9984d355cf97f0000 mov rcx,7FF95C354D98h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b968d 4533c9          xor     r9d,r9d</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9690 e84bf4ffff      call    00007ff9`5c2b8ae0</pre></code></td>
+<td><a href="#140708969952224">CoreLib]]</a></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+<tr><th colspan="2" id="140708969952224" style="text-align: left;">00007ff9`5c2bb3e0 Benchmarks.MustNotBeNullAssertions.MustNotBeNullV2[[System.__Canon, System.Private.CoreLib]](System.__Canon, System.String, System.String)</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b96df 48837d1800      cmp     qword ptr [rbp+18h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b96e4 0f857e000000    jne     00007ff9`5c2b9768</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b96ea 488b4520        mov     rax,qword ptr [rbp+20h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b96ee 488945e8        mov     qword ptr [rbp-18h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b96f2 488b4528        mov     rax,qword ptr [rbp+28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b96f6 488945e0        mov     qword ptr [rbp-20h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b96fa 48837d2800      cmp     qword ptr [rbp+28h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b96ff 7511            jne     00007ff9`5c2b9712</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9701 48b8b89ba6b67a020000 mov rax,27AB6A69BB8h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b970b 488b00          mov     rax,qword ptr [rax]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b970e 488945e0        mov     qword ptr [rbp-20h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9712 48b980c90e5cf97f0000 mov rcx,7FF95C0EC980h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b971c e88fd58d5f      call    coreclr!coreclr_shutdown_2+0xcb80 (00007ff9`bbb96cb0)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9721 488945d8        mov     qword ptr [rbp-28h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9725 b999000000      mov     ecx,99h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b972a 48bab0c51e5cf97f0000 mov rdx,7FF95C1EC5B0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9734 e8776ea05f      call    coreclr!GetCLRRuntimeHost+0x740d0 (00007ff9`bbcc05b0)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9739 488945d0        mov     qword ptr [rbp-30h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b973d 488b55d0        mov     rdx,qword ptr [rbp-30h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9741 488b4de0        mov     rcx,qword ptr [rbp-20h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9745 e856aed9ff      call    00007ff9`5c0545a0</pre></code></td>
+<td>System.String.Concat(System.String, System.String)</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b974a 488945c8        mov     qword ptr [rbp-38h],rax</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b974e 4c8b45c8        mov     r8,qword ptr [rbp-38h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9752 488b55e8        mov     rdx,qword ptr [rbp-18h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9756 488b4dd8        mov     rcx,qword ptr [rbp-28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b975a e8d1d5d9ff      call    00007ff9`5c056d30</pre></code></td>
+<td>System.ArgumentNullException..ctor(System.String, System.String)</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b975f 488b4dd8        mov     rcx,qword ptr [rbp-28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9763 e89821855f      call    coreclr!coreclr_initialize+0xb9420 (00007ff9`bbb0b900)</pre></code></td>
+<td>not managed method</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2b9768 488b4518        mov     rax,qword ptr [rbp+18h]</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+</tbody></table>
+<h2>.NET Core 3.1.0 (CoreCLR 4.700.19.56402, CoreFX 4.700.19.56404), X64 RyuJIT</h2>
+<table>
+<tbody>
+<tr><th colspan="2" id="140708970082992" style="text-align: left;">00007ff9`5c2db2b0 Benchmarks.MustNotBeNullBenchmark.ExternalThrowCall()</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d966e 488b5510        mov     rdx,qword ptr [rbp+10h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9672 488b5208        mov     rdx,qword ptr [rdx+8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9676 49b8b09b009055020000 mov r8,25590009BB0h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9680 4d8b00          mov     r8,qword ptr [r8]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9683 48b9984d375cf97f0000 mov rcx,7FF95C374D98h</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d968d 4533c9          xor     r9d,r9d</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d9690 e84bf4ffff      call    00007ff9`5c2d8ae0</pre></code></td>
+<td><a href="#140708970083056">CoreLib]]</a></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+<tr><th colspan="2" id="140708970083056" style="text-align: left;">00007ff9`5c2db2f0 Benchmarks.MustNotBeNullAssertions.MustNotBeNullV3[[System.__Canon, System.Private.CoreLib]](System.__Canon, System.String, System.String)</th><th></th></tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d96ca 48837d1800      cmp     qword ptr [rbp+18h],0</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d96cf 750d            jne     00007ff9`5c2d96de</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d96d1 488b4d20        mov     rcx,qword ptr [rbp+20h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d96d5 488b5528        mov     rdx,qword ptr [rbp+28h]</pre></code></td>
+<td></td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d96d9 e832f4ffff      call    00007ff9`5c2d8b10</pre></code></td>
+<td>Benchmarks.Throw.ArgumentNull(System.String, System.String)</td>
+</tr>
+<tr class="">
+<td><pre><code>00007ff9`5c2d96de 488b4518        mov     rax,qword ptr [rbp+18h]</pre></code></td>
+<td></td>
+</tr>
+<tr><td colspan="{2}">&nbsp;</td></tr>
+</tbody></table>
+</body></html>
